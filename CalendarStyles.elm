@@ -20,7 +20,7 @@ weekStyle =
   style
     [ ("width", "100%")
     , ("height", "450px")
-    , ("background", "darkblue")
+    , ("background", "#5a6378")
     ]
 
 pullLeft : Attribute msg
@@ -48,7 +48,7 @@ dayStyle : Attribute msg
 dayStyle =
   style
     [ ("width", "13.5%")
-    , ("background", "lightblue")
+    , ("background", "#60b5cc")
     , ("height", "99%")
     , ("display", "inline-block")
     , ("margin", "2px")
@@ -58,7 +58,7 @@ currentDayStyle : Attribute msg
 currentDayStyle =
   style
     [ ("width", "13.5%")
-    , ("background", "green")
+    , ("background", "#7fd13b")
     , ("height", "99%")
     , ("display", "inline-block")
     , ("margin", "2px")
